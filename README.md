@@ -57,3 +57,7 @@ Or run only single benchmark (cpu or memory):
 ```
 rake benchmark:cpu[1000,1000]
 ```
+
+### Code Status ###
+
+[![Build Status](https://travis-ci.org/rzaharenkov/flatten.svg?branch=master)](https://travis-ci.org/rzaharenkov/flatten)
