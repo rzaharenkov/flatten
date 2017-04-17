@@ -1,6 +1,6 @@
 # README #
 
-This is a demo project that includes custom implementation of `Array#flatten` algorithm.
+This is a demo project that includes custom implementation and analysis of `Array#flatten` algorithm.
 
 ### Challenge ###
 
@@ -23,6 +23,7 @@ In order to run specs you need to run Bundler and then use `rspec` executable or
 ```
 bundle install
 rspec --format=doc
+```
 
 or:
 
