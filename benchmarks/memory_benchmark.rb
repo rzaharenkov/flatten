@@ -40,11 +40,6 @@ class MemoryBenchmark
 
   private
 
-  def parse_numeric_argument(raw_value, default_value)
-    value = raw_value.to_i
-    value > 0 ? value : default_value
-  end
-
   def print_header
     puts "Memory benchmark (data size: #{@data_size})"
     puts "#{' ' * LABEL_WIDTH} #{MEMORY_ALLOCATED.rjust(METRIC_WITDH)} #{MEMORY_RETAINED.rjust(METRIC_WITDH)}"

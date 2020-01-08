@@ -31,11 +31,4 @@ class CpuBenchmark
       end
     end
   end
-
-  private
-
-  def parse_numeric_argument(raw_value, default_value)
-    value = raw_value.to_i
-    value > 0 ? value : default_value
-  end
 end
